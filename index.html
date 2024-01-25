@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="new.css">
+    </head>
+
+    <body>
+        <h1>QUADRATIC EQUATIONS CALCULATOR</h1>
+        <p id="intro">Your Equation SHOULD Appear in this Format: <strong>ax^2 + bx +c = 0</strong><br>
+            Now Input Your A,B and C in the Inputs Below and Click Calculate to do the Operation.
+        </p>
+        <p id="demo"></p>
+        <div class="equation">
+            <input id="a" placeholder="a"> x<sup>2</sup> +<input id="b"placeholder="b"> x +<input id="c" placeholder="c"> = 0<br>
+            <button onclick="fxn()">CALCULATE</button>
+            <button onclick="plot()">PLOT GRAPH</button><br>
+        </div>
+        <p id="x1x2">The Values Of X are:</p>
+
+        <div class="container" style="display:none;">
+            START PT.:<input id="strt">
+            END PT.:<input id="end">
+            <button id="sub" onclick="submit()">PLOT GRAPH</button>
+        </div>
+        <canvas id="mychart" style="width:100%; max-width:700px;"></canvas>
+        <hr>
+        <script src="new.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+#intro{
+    background-color: green;
+    color:white;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:0;
+    margin-left:3vw;
+    margin-right:3vw;
+}
+h1{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    margin:3vw;
+    margin-bottom: 1vh;
+}
+#a{
+    margin-left:3vw;
+    width:3vw;
+}
+#b{
+    margin-left:0.3vw;
+    width:3vw;
+}
+#c{
+    margin-left:0.3vw;
+    width:3vw;
+}
+button{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#x1x2{
+    width:40vw;
+    border:2px solid green;
+    height:4vh;
+    margin-left:22vw;
+}
+hr{
+    border: 1px solid black;
+}
+h2{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+}
+#in{
+    width:200px;
+    margin-left: 450px;
+}
+#out{
+    text-align:center;
+    border:2px solid green;
+    height:20px;
+}
+.container{
+    border:0.2vw solid blue;
+    padding:2vw;
+    width:40vw;
+    margin-left:22vw;
+}
+#strt ,#end{
+    width:40px;
+}
+#sub{
+    background-color: green;
+    color:white;
+}
+.equation{
+    border: 0.2vw solid blueviolet;
+    padding:4vw;
+    width:40vw;
+    margin-left:22vw;
+    height:20vh;
+}
